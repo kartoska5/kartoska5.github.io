@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+div{ 
+    font-size: 20px;  
+} 
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{ 
+    display: flex; 
+    justify-content: space-evenly; 
+    align-items: center; 
+    height: 40px; 
+    width: 100%; 
+    position: fixed; 
+    top: 0; 
+    left: 0;  
+    background-color: rgb(255, 0, 0); 
+} 
+a{ 
+    text-decoration: none; 
+    color: rgb(255, 255, 255); 
+font-size: 25px;
+} 
+a:hover{
+    color: rgb(55, 255, 0);
+}
+li{  
+    list-style: none; 
+} 
+p{ 
+   text-align: center;
+   color: rgb(255, 0, 0);
+   padding-top: 80px;
+} 
+.red{  
+    width: 100%; 
+    margin-top: 65px; 
+} 
+img{ 
+   height: 300px; 
+   width: 450px; 
+}
+.sad{
+  display: flex;
+  justify-content: space-between;
+}
+body{
+    background-image: url(https://img.lovepik.com/illus_pic/18/07/28/cad22c8976c621ba1bc5ec2bf54b173d.jpg_wh860.jpg);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+div{
+    color: rgb(255, 0, 0);
+    font-family: 'Abel', sans-serif;
+    font-size: 29px;
+    padding-left: 30px;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+
+}
